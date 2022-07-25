@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/686011/retina_1708x683_cover-REDESIGN-WebpackDependencies-Luke_Newsletter-627dfc180ba09f35679c9029e6b52001.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  padding-top: 0.3em;
+  font-weight: 800;
+  font-style: italic;
+}
+
+div {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  padding-top: 0.3em;
+  font-weight: 800;
+  font-style: italic;
+}
