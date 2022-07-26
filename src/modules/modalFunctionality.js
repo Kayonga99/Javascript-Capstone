@@ -19,5 +19,3 @@ export const modalsup = (e, foods) => {
 closeModal.addEventListener('click', () => {
   modalConatiner.style.display = 'none';
 });
-
-// export default modalsup();
