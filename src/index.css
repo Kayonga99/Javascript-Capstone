@@ -27,8 +27,8 @@ main {
 
 /* ///main-container should use grid */
 .main-container {
+  position: relative;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -107,4 +107,46 @@ main {
   height: 80px;
   border-radius: 50%;
   text-align: center;
+}
+
+/* modal img  */
+
+.size {
+  height: 302px;
+  width: 100%;
+}
+
+/* modal  */
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  position: fixed;
+  left: 50%;
+  width: 51%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 97%;
+  align-self: center;
+  padding: 17px;
+}
+
+/* coment button  */
+
+.comment-btn {
+  width: 42%;
+  height: 35px;
+  font-size: 17px;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+}
+
+/* close button  */
+
+.close {
+      position: absolute;
+      font-size: 49px;
+      top: 0;
+      align-self: flex-end;
 }
