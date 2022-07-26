@@ -112,8 +112,10 @@ main {
 /* modal img  */
 
 .size {
-  height: 302px;
+   height: 302px;
   width: 100%;
+  object-fit: cover;
+  border-radius: 17px;
 }
 
 /* modal  */
@@ -123,13 +125,16 @@ main {
   flex-direction: column;
   background-color: #e5e5e5;
   position: fixed;
-  left: 50%;
-  width: 51%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 97%;
+  width: 40%;
+  height: 100%;
   align-self: center;
   padding: 17px;
+  overflow: scroll;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 /* coment button  */
