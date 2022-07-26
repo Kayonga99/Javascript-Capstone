@@ -191,3 +191,7 @@ main {
 .m-comments {
   text-align: center;
 }
+
+#foodType {
+  margin-top: 2px;
+}
