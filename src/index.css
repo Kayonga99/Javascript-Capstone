@@ -182,3 +182,12 @@ main {
   font-size: 12px;
   margin-top: 8px;
 }
+
+.add-c {
+  margin: 2px 0 2px 0px;
+  text-align: center;
+}
+
+.m-comments {
+  text-align: center;
+}
