@@ -150,3 +150,22 @@ main {
       top: 0;
       align-self: flex-end;
 }
+
+/* name input */
+
+#name {
+  width: 200px;
+  height: 26px;
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+/* comment input */
+
+#comment {
+  width: 200px;
+  height: 135px;
+  padding-left: 8px;
+  font-size: 12px;
+  margin-top: 8px;
+}
