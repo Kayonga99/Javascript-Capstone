@@ -1,5 +1,5 @@
 import './index.css';
-
+import { modalsup } from './modules/modalFunctionality';
 import fetchFood from './modules/fetchfood';
 
 fetchFood();
@@ -25,12 +25,16 @@ const renderFood = async () => {
               <h2>${meal.strMeal}</h2>
               <i class="fa-solid fa-heart"></i>
             </div>
-            <p>${meal.idMeal} Likes</p>
-            <button class="comments">Comments</button>
+            <p>0 Likes</p>
+            <button class="comments" id="${meal.idMeal}">Comments</button>
           </div>
         `;
     foodList.appendChild(foodItem);
   });
-};
+  const modalsUp = document.querySelectorAll('.comments');
 
+  modalsUp.forEach((btn) => {
+    btn.addEventListener('click', (e) => modalsup(e, food));
+  });
+};
 renderFood();
