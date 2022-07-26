@@ -145,10 +145,10 @@ main {
 /* close button  */
 
 .close {
-      position: absolute;
-      font-size: 49px;
-      top: 0;
-      align-self: flex-end;
+  position: absolute;
+  font-size: 49px;
+  top: 0;
+  align-self: flex-end;
 }
 
 /* form */
@@ -177,4 +177,3 @@ main {
   font-size: 12px;
   margin-top: 8px;
 }
-
