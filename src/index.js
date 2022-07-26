@@ -9,7 +9,7 @@ const renderFood = async () => {
   const food = data.meals;
   const foodList = document.querySelector('.main-container');
   foodList.innerHTML = '';
-  food.forEach((meal) => {
+  food.forEach((meal, index) => {
     const foodItem = document.createElement('div');
     foodItem.classList.add('food-container');
     foodItem.innerHTML = `
@@ -26,7 +26,7 @@ const renderFood = async () => {
               <i class="fa-solid fa-heart"></i>
             </div>
             <p>${meal.idMeal} Likes</p>
-            <button class="comments">Comments</button>
+            <button class="comments" id="${index}">Comments</button>
           </div>
         `;
     foodList.appendChild(foodItem);
