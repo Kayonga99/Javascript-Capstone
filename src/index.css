@@ -151,6 +151,14 @@ main {
       align-self: flex-end;
 }
 
+/* form */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 /* name input */
 
 #name {
@@ -169,3 +177,4 @@ main {
   font-size: 12px;
   margin-top: 8px;
 }
+
