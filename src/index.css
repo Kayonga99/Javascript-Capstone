@@ -113,9 +113,9 @@ main {
 
 .size {
    height: 302px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 17px;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 17px;
 }
 
 /* modal  */
