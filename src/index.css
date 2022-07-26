@@ -4,27 +4,97 @@
 }
 
 body {
-  background-image: url(https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/686011/retina_1708x683_cover-REDESIGN-WebpackDependencies-Luke_Newsletter-627dfc180ba09f35679c9029e6b52001.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
 }
 
-h1 {
-  color: #fff;
-  font-size: 4em;
-  text-align: center;
-  font-family: 'poppins', sans-serif;
-  padding-top: 0.3em;
-  font-weight: 800;
-  font-style: italic;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-div {
-  color: #fff;
-  font-size: 2em;
-  text-align: center;
-  font-family: 'poppins', sans-serif;
-  padding-top: 0.3em;
-  font-weight: 800;
-  font-style: italic;
+main {
+  padding: 20px;
+}
+
+/* ///main-container should use grid */
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* .food-image {
+  width: 25%;
+} */
+
+.food-image .food-img {
+  width: 100%;
+}
+
+.name-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.food-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  align-self: flex-end;
+}
+
+/* comment button */
+.comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
