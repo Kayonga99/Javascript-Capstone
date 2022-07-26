@@ -25,7 +25,7 @@ const renderFood = async () => {
               <h2>${meal.strMeal}</h2>
               <i class="fa-solid fa-heart"></i>
             </div>
-            <p>${meal.idMeal} Likes</p>
+            <p>0 Likes</p>
             <button class="comments" id="${meal.idMeal}">Comments</button>
           </div>
         `;
