@@ -112,10 +112,10 @@ main {
 /* modal img  */
 
 .size {
-   height: 302px;
-   width: 100%;
-   object-fit: cover;
-   border-radius: 17px;
+  height: 302px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 17px;
 }
 
 /* modal  */
@@ -184,7 +184,7 @@ main {
 }
 
 .add-c {
-  margin: 2px 0 2px 0px;
+  margin: 2px 0 2px 0;
   text-align: center;
 }
 
