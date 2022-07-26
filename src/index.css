@@ -11,12 +11,14 @@ body {
   background: #fff;
 }
 
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  height: 60px;
+  height: 90px;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -55,10 +57,6 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* .food-image {
-  width: 25%;
-} */
-
 .food-image .food-img {
   width: 100%;
 }
@@ -90,6 +88,8 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* footer */
+
 .footer {
   display: flex;
   justify-content: center;
@@ -114,6 +114,8 @@ main {
 .size {
   height: 302px;
   width: 100%;
+  object-fit: cover;
+  border-radius: 17px;
 }
 
 /* modal  */
@@ -123,13 +125,16 @@ main {
   flex-direction: column;
   background-color: #e5e5e5;
   position: fixed;
-  left: 50%;
-  width: 51%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 97%;
+  width: 40%;
+  height: 100%;
   align-self: center;
   padding: 17px;
+  overflow: scroll;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 /* coment button  */
@@ -176,4 +181,17 @@ main {
   padding-left: 8px;
   font-size: 12px;
   margin-top: 8px;
+}
+
+.add-c {
+  margin: 2px 0 2px 0;
+  text-align: center;
+}
+
+.m-comments {
+  text-align: center;
+}
+
+#foodType {
+  margin-top: 2px;
 }

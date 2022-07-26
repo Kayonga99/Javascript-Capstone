@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# WEBPACK 5 TEMPLATE
+# JavaScript Final Capstone
 
 > Everything you need to start using webpack is all setup and ready to use just run the following commands to get started:
 
@@ -8,12 +8,12 @@ Get started by copying and pasting the following in your terminal:
 
 - 1 
 ```
-git@github.com:Kayonga99/Webpack.git
+git@github.com:Kayonga99/Javascript-Capstone.git
 ```
 - 2
 
 ```
-cd webpack
+cd Javascript-Capstone
 ```
 
 - 3
@@ -34,13 +34,36 @@ npm run build
 ```
 npm start
 ```
-The browser will open and you should see this text : "Hello webpack!", if this is not the case please stay calm and simply open your browser and paste this.
+The browser will open and you should see the web application you can now like and comment on any of the food that you like
 ```
-http://localhost:3000
+http://localhost:8080
 ```
 
 
-- 6
+- [click here! to see live demo]()
+## Buit with
+- Javascript
+- Webpack
+- CSS
+- Html
+
+## Authors
+
+## Author 1
+ 
+ 👤 **Kayonga Chiteta**
+
+- GitHub: [@Kayonga99](https://github.com/Kayonga99)
+- Twitter: [@KayongaChiteta3](https://twitter.com/KayongaChiteta3?t=gfILCjmltzGRZOx6FZ8-nQ&s=08)
+- LinkedIn: [Kkayonga Chiteta](https://www.linkedin.com/in/kayonga-chiteta-776949227)
+
+## Author 2
+ 
+ 👤 **?**
+
+- GitHub: []()
+- Twitter: []()
+- LinkedIn: []()
 
  You can start editing the files in the "src" folder
 
@@ -48,9 +71,6 @@ http://localhost:3000
 
 if you are interested in learning more about webpack click the link below
 
-[click here!](https://webpack.js.org/guides/getting-started/)
-
-- [click here! to see live demo](https://endearing-palmier-2b7d05.netlify.app/)
 
 ## Show your support
 
