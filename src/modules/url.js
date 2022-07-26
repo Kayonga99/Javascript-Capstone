@@ -1,1 +1,4 @@
-const foodUrl = `www.themealdb.com/api/json/v1/1/lookup.php?i=52772`
+const foodUrl = `https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+`;
+
+export default foodUrl;
