@@ -11,12 +11,14 @@ body {
   background: #fff;
 }
 
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  height: 60px;
+  height: 90px;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -55,10 +57,6 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* .food-image {
-  width: 25%;
-} */
-
 .food-image .food-img {
   width: 100%;
 }
@@ -89,6 +87,8 @@ main {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* footer */
 
 .footer {
   display: flex;
