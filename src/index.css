@@ -1,14 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 30.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background: #fff;
+  background: #14121512;
 }
 
 /* header */
@@ -19,7 +32,7 @@ body {
   align-items: center;
   padding: 0 20px;
   height: 90px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -31,7 +44,20 @@ main {
 .main-container {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
 }
 
 .food-container {
@@ -39,7 +65,6 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
@@ -47,10 +72,13 @@ main {
 
 .food-info {
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  margin: 4%;
+  padding: 3px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background: #fff;
