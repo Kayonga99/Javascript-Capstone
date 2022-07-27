@@ -192,6 +192,12 @@ main {
   border-radius: 10px;
 }
 
+.nav {
+  font-size: 17px;
+  font-weight: 700;
+  color: #7f7f7f;
+}
+
 .add-c {
   margin: 2px 0 2px 0;
   text-align: center;
