@@ -3,6 +3,7 @@ import { modalsup } from './modules/modalFunctionality';
 import fetchFood from './modules/fetchfood';
 import uploadLike from './modules/addlike';
 import involementAPI from './modules/config';
+import itemsCount from './modules/itemsCount';
 
 fetchFood();
 
@@ -11,8 +12,9 @@ const renderFood = async () => {
   const data = await fetchFood();
   const food = data.meals;
   const foodList = document.querySelector('.main-container');
-  const foodCount = document.querySelector('#food-count');
-  foodCount.textContent = food.length;
+  // const foodCount = document.querySelector('#food-count');
+  // foodCount.textContent = food.length;
+  itemsCount(food);
   foodList.innerHTML = '';
   food.forEach((meal) => {
     const foodItem = document.createElement('div');
