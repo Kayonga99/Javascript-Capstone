@@ -11,6 +11,8 @@ const renderFood = async () => {
   const data = await fetchFood();
   const food = data.meals;
   const foodList = document.querySelector('.main-container');
+  const foodCount = document.querySelector('#food-count');
+  foodCount.textContent = food.length;
   foodList.innerHTML = '';
   food.forEach((meal) => {
     const foodItem = document.createElement('div');
