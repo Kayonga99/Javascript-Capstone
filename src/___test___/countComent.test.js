@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
- import CountComments from './CountComments';
+ import CountComments from '../modules/countComements';
 
  document.body.innerHTML = '<span class="count-comment"></span>';
  
