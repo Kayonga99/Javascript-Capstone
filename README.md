@@ -60,7 +60,7 @@ http://localhost:8080
 👤 **Kayonga Chiteta**
 
 - GitHub: [@Kayonga99](https://github.com/Kayonga99)
-- Twitter: [@KayongaChiteta3](https://twitter.com/KayongaChiteta3?t=gfILCjmltzGRZOx6FZ8-nQ&s=08)
+- Twitter: [@KayongaChiteta3](https://twitter.com/KayongaChiteta3)
 - LinkedIn: [Kkayonga Chiteta](https://www.linkedin.com/in/kayongac/)
 
 ## Author 2
