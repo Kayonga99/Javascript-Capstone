@@ -178,6 +178,7 @@ main {
   height: 26px;
   padding-left: 8px;
   font-size: 12px;
+  border-radius: 10px;
 }
 
 /* comment input */
@@ -188,6 +189,7 @@ main {
   padding-left: 8px;
   font-size: 12px;
   margin-top: 8px;
+  border-radius: 10px;
 }
 
 .add-c {
