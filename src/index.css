@@ -96,7 +96,7 @@ main {
   align-items: center;
   padding: 20px;
   height: 60px;
-  background: #fff;
+  background: #e5e5e5;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -145,6 +145,13 @@ main {
   font-size: 17px;
   font-family: "lato", sans-serif;
   font-weight: 600;
+  margin-top: 5px;
+  display: flex;
+  padding: 5px;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  justify-content: center;
+  align-self: center;
 }
 
 /* close button  */
@@ -171,6 +178,7 @@ main {
   height: 26px;
   padding-left: 8px;
   font-size: 12px;
+  border-radius: 10px;
 }
 
 /* comment input */
@@ -181,6 +189,13 @@ main {
   padding-left: 8px;
   font-size: 12px;
   margin-top: 8px;
+  border-radius: 10px;
+}
+
+.nav {
+  font-size: 17px;
+  font-weight: 700;
+  color: #7f7f7f;
 }
 
 .add-c {
