@@ -44,7 +44,8 @@ The browser will open and you should see the web application you can now like an
 http://localhost:8080
 ```
 
-- [click here! to see live demo]()
+- [click here! to see live demo](https://zippy-mochi-673645.netlify.app/)
+### - [Video presentation link](https://drive.google.com/file/d/1UFAKEsqsAZbK4MtKOKKGKd8nBtDCvhwh/view?usp=sharing)
 
 ## Buit with
 
