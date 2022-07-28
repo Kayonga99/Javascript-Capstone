@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 30.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #14121512;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  padding: 20px;
+}
+
+/* ///main-container should use grid */
+.main-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+}
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.food-info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.food-image .food-img {
+  width: 100%;
+}
+
+.name-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.food-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  align-self: flex-end;
+}
+
+/* comment button */
+.comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 60px;
+  background: #e5e5e5;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* logo  */
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* modal img  */
+
+.size {
+  height: 302px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 17px;
+}
+
+/* modal  */
+
+.modal {
+  display: none;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  align-self: center;
+  padding: 17px;
+  overflow: scroll;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* coment button  */
+
+.comment-btn {
+  width: 42%;
+  height: 35px;
+  font-size: 17px;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+  display: flex;
+  padding: 5px;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  justify-content: center;
+  align-self: center;
+}
+
+/* close button  */
+
+.close {
+  position: absolute;
+  font-size: 49px;
+  top: 0;
+  align-self: flex-end;
+}
+
+/* form */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* name input */
+
+#name {
+  width: 200px;
+  height: 26px;
+  padding-left: 8px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+/* comment input */
+
+#comment {
+  width: 200px;
+  height: 135px;
+  padding-left: 8px;
+  font-size: 12px;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+
+.nav {
+  font-size: 17px;
+  font-weight: 700;
+  color: #7f7f7f;
+}
+
+.add-c {
+  margin: 2px 0 2px 0;
+  text-align: center;
+}
+
+.m-comments {
+  text-align: center;
+}
+
+#foodType {
+  margin-top: 2px;
+}
