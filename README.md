@@ -53,7 +53,7 @@ http://localhost:8080
 - Webpack
 - CSS
 - Html
-
+- Jest
 ## Authors
 
 ## Author 1
